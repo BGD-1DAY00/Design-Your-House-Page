@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 40px;
+  position: absolute;
+  width: 90%;
+}
+.banner ul{
+  display: flex;
+  align-items: center;
+}
+.banner ul li{
+  list-style-type: none;
+  margin-left: 30px;
+}
+.banner ul li a{
+  text-decoration: none;
+  color:darkslategray;
+  font-weight: bold;
+  opacity: .7;
+}
+.banner .image img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-left: 30px;
+}
+main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  background-image: url('./pexels-pixabay-271816.jpg');
+}
+main h1{
+  font-size: 5vmax;
+  font-weight: bold;
+}
+#house{
+  color: whitesmoke;
+  font-weight: bolder;
+}
+main p{
+  max-width: 500px;
+  line-height: 1.5rem;
+}
+.button{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  width: 40%;
+  border: none;
+  
+}
+.button button{
+  background-color: darkslateblue;
+  padding: 25px 15px;
+  border-radius: 100px;
+  color: whitesmoke;
+  opacity: .9;
+}
+section{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin-bottom: 0;
+  overflow-y: hidden;
+  background: linear-gradient(#e66465, #9198e5);
+}
+.container{
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rem;
+
+}
+.sectionOne{
+  width: 40%;
+  margin-top: 3rem;
+}
+.grid{
+  margin-left: 35px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 25px;
+}
+.box{
+  border: 2px solid darkkhaki;
+  border-radius: 20px;
+  padding: 20px 15px;
+}
+.box h1{
+  margin-bottom: 1rem;
+  font-size: 3vmax;
+  text-decoration: underline;
+  color: whitesmoke;
+}
+.box p{
+  line-height: 1.3rem;
+}
+.sectionTwo{
+  max-width: 60%;
+}
+.sectionTwo img{
+  width: 350px;
+  border-radius: 50px;
+  margin-left: 10rem;
+}
+.sectionTwo p{
+  margin-left: 4rem;
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  width: 600px;
+  text-align: center;
+}
